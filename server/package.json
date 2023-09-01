@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "json-server-auth --watch db.json --port 8080"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "json-server": "^0.17.3",
+    "json-server-auth": "^2.1.0"
+  }
+}

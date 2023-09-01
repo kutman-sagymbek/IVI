@@ -1,0 +1,85 @@
+.promoSlider {
+
+  &__carousel {
+
+    .mySwiper {
+      width: 100%;
+
+      .swiper-button-prev:after {
+        color: rgba(255, 255, 255, 0.72);
+        background-color: transparent;
+
+      }
+
+      .swiper-button-next:after {
+        color: rgba(255, 255, 255, 0.72);
+        background-color: transparent;
+
+      }
+
+
+          SwiperSlide {
+            position: relative;
+
+          }
+          img {
+            height: 370px;
+            width: 1216px;
+            border-radius: 10px;
+          }
+
+          .btnSwiperSlide {
+            z-index: 6;
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            position: absolute;
+            bottom: 30px;
+            left: 39px;
+            border: none;
+            width: 187px;
+            height: 40px;
+            background: #EA003D;
+            border-radius: 8px;
+          }
+        }
+  }
+
+  .btn-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    .btn-30days-free {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 1216px;
+      height: 48px;
+      background: #1F1B2E;
+      border-radius: 8px;
+      border: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      color: #FFFFFF;
+
+
+
+      .lightning {
+        width: 24px;
+        height: 32px;
+        border: none;
+        background: none;
+      }
+    }
+  }
+}
+
+

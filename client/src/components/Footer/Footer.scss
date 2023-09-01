@@ -1,0 +1,151 @@
+.footer {
+  padding-top: 49px;
+
+  .footer-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+    padding-bottom: 48px;
+    border-top: 1px rgba(255, 255, 255, 0.16) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.16) solid;
+
+  .about-us {
+    list-style: none;
+    .about-us-list {
+      list-style: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      color: rgba(255, 255, 255, 0.48);
+
+      .footer-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+   .parts {
+      .parts-list {
+        list-style: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 0.48);
+
+        .activation {
+          background: none;
+          color: deeppink;
+        }
+      }
+
+
+     .footer-title {
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 15px;
+       line-height: 25px;
+       color: #FFFFFF;
+     }
+   }
+
+    .support {
+      div {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.48);
+      }
+
+      .footer-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+      }
+
+      .btn-chat {
+        margin-top: 20px;
+        width: 196px;
+        height: 40px;
+        background: #1F1B2E;
+        border: 1px solid #1F1B2E;
+        border-radius: 8px;
+        box-sizing: border-box;
+        color: white;
+      }
+
+      .ask-ivi {
+        margin-top: 24px;
+      }
+
+      .contact-us {
+        margin-top: 12px;
+
+
+        .btn-mail {
+          margin-right: 12px;
+          width: 40px;
+          height: 40px;
+          background: #1F1B2E;
+          border: 1px solid #1F1B2E;
+          border-radius: 8px;
+          color: white;
+        }
+
+        .btn-phone {
+          width: 40px;
+          height: 40px;
+          background: #1F1B2E;
+          border: 1px solid #1F1B2E;
+          border-radius: 8px;
+          color: white;
+        }
+      }
+    }
+
+    .watch-without-ads {
+
+      .footer-widget {
+        width: 104px;
+        height: 104px;
+        background: linear-gradient(180deg, #A869F0 0%, #834CC2 100%);
+        box-shadow: 0px 0px 104px #A869F0;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          background-color: transparent;
+        }
+      }
+
+      .footer-widget-text {
+        padding-top: 24px;
+        text-align: center;
+        background-color: transparent;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #A5A1B2;
+      }
+    }
+  }
+}

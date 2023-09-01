@@ -1,0 +1,37 @@
+.new-cartoons {
+  padding-top: 24px;
+  width: 100%;
+
+  h2 {
+    padding-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+    line-height: 28px;
+  }
+  .carousel, .carousel4 {
+    padding-top: 24px;
+    .movie-box {
+      .nameOfserial {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #D9D7E0;
+      }
+
+      .subscribe {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #EA003D;
+        line-height: 16px;
+      }
+    }
+  }
+}

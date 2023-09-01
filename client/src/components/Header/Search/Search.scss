@@ -1,0 +1,82 @@
+.search-dropdown {
+    background: none;
+    //text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+
+  .poisk {
+    background: none;
+    padding: 15px;
+    font-size: 30px;
+  }
+
+  .search-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    gap: 5px;
+    .search {
+      background: white;
+      width: 600px;
+      height: 30px;
+      border-radius: 8px;
+      text-align: center;
+      outline: none;
+      border: none;
+    }
+
+    .btn-search {
+      width: 40px;
+      height: 30px;
+      background-color: #EA003D;
+      border: none;
+      border-radius: 8px;
+
+      .search-icon {
+        background: none;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .error-loading {
+    background: none;
+    color: rgba(255, 255, 255, 0.48);
+    padding-top: 60px;
+  }
+
+  .movieList {
+    background: none;
+    padding-top: 30px;
+    width: 500px;
+    height: 120px;
+
+    .movieName {
+      background: none;
+      color: rgba(255, 255, 255, 0.48);
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .movieName:hover {
+      color: #EA003D;
+    }
+
+    .camera {
+      color: #EA003D;
+      width: 22px;
+      height: 18px;
+      background: none;
+      padding-right: 5px;
+    }
+  }
+  }
