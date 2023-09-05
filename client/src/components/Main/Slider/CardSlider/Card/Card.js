@@ -6,22 +6,21 @@ import {IoMdHeartDislike} from 'react-icons/io';
 import { useDispatch, useSelector } from "react-redux";
 // import { addToFavorites, removeFromFavorites } from "../../../../../redux/favoriteMoviesSlice";
 import { loginAccount, updateFavorites } from "../../../../../redux/userSlice";
+import {Link} from "react-router-dom";
 
-function Card({ movie }) {
+function Card({ movie, to }) {
     const dispatch = useDispatch();
     const favorite = useSelector((state) => state.user.favorites);
     const user = useSelector((state) => state.user.user);
     console.log(user)
 
-    const isAddedToFavorites = user.favorites.includes(movie.id);
+    // const isAddedToFavorites = user.favorites.includes(movie.id);
 
     const handleAddToFavorites = (event) => {
-        event.stopPropagation();
         dispatch(updateFavorites(movie.id));
     };
 
     const handleRemoveFromFavorites = (event) => {
-        event.stopPropagation();
         if (user) {
             const updatedFavorites = user.favorites.filter(id => id !== movie.id);
             dispatch(loginAccount({ ...user, favorites: updatedFavorites }));
@@ -36,7 +35,9 @@ function Card({ movie }) {
 
     return (
         <div className="movie-card">
-            <img className="card-img" alt={movie.title} src={movie.poster.url} />
+            <Link to="/moviePage">
+                <img className="card-img" alt={movie.title} src={movie.poster.url} />
+            </Link>
             <div className="shadow">
                 <div className="icons">
                     {

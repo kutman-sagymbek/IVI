@@ -43,7 +43,7 @@ function CardSlider({title, type}) {
             <h2>{title} &#10095;</h2>
             <Carousel responsive={responsive} className="carousel3">
                 {data?.docs.map((movie) => (
-                        <Card movie={movie} key={movie.id}/>
+                        <Card movie={movie} key={movie.id} to={(e) => e.stopPropagation()}/>
                 ))}
             </Carousel>;
         </section>
