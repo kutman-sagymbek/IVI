@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "email": "PPPkutmansagymbekuulu@gmail.com",
+      "password": "$2a$10$pzRMi08T//K9dPwQF/uo8eUYzfvfT9xfnjyrjYmrLX/eIxTqIirkW",
+      "login": "2222",
+      "phone": "+996(444)44-44-44",
+      "favorites": [],
+      "id": 2
+    },
+    {
+      "email": "AAAkutmansagymbekuulu@gmail.com",
+      "password": "$2a$10$r4FyxecXQ5v1Ct03sVnoHetmlgvSmYgGWEsIgYCjNwNF6LGjr4o9i",
+      "login": "5555",
+      "phone": "+996(666)66-66-66",
+      "favorites": [],
+      "id": 3
+    },
+    {
+      "email": "UUUkutmansagymbekuulu@gmail.com",
+      "login": "lmlkjb4",
+      "phone": "+996(555)55-55-55",
+      "password": "444AAww",
+      "favorites": [],
+      "id": 4
+    },
+    {
+      "email": "kutmansagymbekuulu@gmail.com",
+      "password": "$2a$10$o2RAScvIKDBe4SvuTg/VG.GzeezEqT1PJCm99jSt0tnb24.8EY97y",
+      "login": "2222",
+      "phone": "+996(666)66-66-66",
+      "favorites": [
+        775273,
+        2360,
+        430,
+        89514
+      ],
+      "id": 5
+    },
+    {
+      "email": "ataisagymbekov@gmail.com",
+      "password": "$2a$10$K7dEYYhXCDnOtOF04aoZvOE6n.XCknEqFQq.PZ485s/heo2tZ/Kjy",
+      "login": "2222",
+      "phone": "+996(555)55-55-55",
+      "favorites": [
+        2360,
+        679486,
+        279102,
+        280172
+      ],
+      "id": 6
+    }
+  ]
+}
