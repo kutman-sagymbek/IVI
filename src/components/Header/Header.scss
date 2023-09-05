@@ -1,0 +1,175 @@
+.container {
+  //max-width: 1216px;
+  //padding: 0 24px;
+
+
+  .header {
+    width: 100%;
+    padding: 18px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-header {
+      display: flex;
+      gap: 32px;
+      background-color: transparent;
+
+      .iviLogoBlock {
+        width: 66px;
+        height: 48px;
+        background-color: transparent;
+
+
+        .iviLogo {
+          width: 100%;
+          background-color: transparent;
+        }
+      }
+
+
+
+      .list-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15.95px;
+        list-style: none;
+        background-color: transparent;
+
+        .header-li {
+          color: rgba(255, 255, 255, 0.48);
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 20px;
+          background-color: transparent;
+
+          .container {
+            .dropdown-block {
+              //display: flex;
+              //justify-content: space-between;
+              z-index: 6;
+              position: absolute;
+              top: 83px;
+              left: 110px;
+              background-color: #1F1B2E;
+              border-radius: 10px;
+              padding: 5px 5px;
+              width: 1216px;
+              height: 370px;
+              //box-shadow: 0px 0px 5px #A869F0;
+            }
+
+            .dropdown-block.active {
+              opacity: 1;
+              visibility: visible;
+              transform: translateY(0);
+            }
+
+            .dropdown-block.inactive {
+              opacity: 0;
+              visibility: hidden;
+              transform: translateY(-20px);
+            }
+          }
+        }
+
+        li:hover {
+          color: #FFFFFF;
+        }
+
+      }
+    }
+
+    .header-right-side {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+
+      .btn-header {
+        width: 212.95px;
+        height: 32px;
+        background: #EA003D;
+        border: 1px solid #EA003D;
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 16px;
+      }
+
+
+      .search-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+
+        .poisk {
+          text-align: center;
+          color: rgba(255, 255, 255, 0.48);
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 20px;
+        }
+
+        .search-icon {
+          color: rgba(255, 255, 255, 0.48);
+          width: 16px;
+          height: 16px;
+        }
+
+        .search-dropdown-block {
+          z-index: 6;
+          position: absolute;
+          top: 83px;
+          left: 110px;
+          background-color: #1F1B2E;
+          opacity: 0.95;
+          border-radius: 10px;
+          padding: 5px 5px;
+          width: 1216px;
+          height: 370px;
+        }
+      }
+
+      .search-header:hover {
+        .poisk {
+          color: #FFFFFF;
+        }
+
+        .search-icon {
+          color: #FFFFFF;
+        }
+      }
+
+      .loginn {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.48);
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+      }
+
+      p {
+        color: white;
+      }
+    }
+  }
+
+  //.header:hover {
+  //  background-color: #1F1B2E;
+  //}
+}
+
+

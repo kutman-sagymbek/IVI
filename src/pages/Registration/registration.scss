@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap');
+
+.login {
+  //margin: 0 auto;
+  background-image: linear-gradient(0deg, #1d1d1d, #ff0041);
+  padding: 100px 0;
+
+  &__form {
+    margin: 0px auto;
+    width: 400px;
+    background-color: rgb(0, 0, 0, .3);
+    padding: 50px 0;
+    border-radius: 20px;
+    text-align: center;
+
+
+    h2 {
+      background: none;
+      color: #A5A1B2;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    &-block {
+      background: none;
+    }
+
+    &-label {
+      background: none;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 10px;
+    }
+
+    &-input {
+      text-align: center;
+      background-color: rgb(0, 0, 0, .5);
+      width: 300px;
+      height: 40px;
+      border: none;
+      margin: 10px;
+      border-radius: 15px;
+      color: #A5A1B2;
+    }
+
+    &-error {
+      width: 300px;
+      padding: 10px;
+      background: none;
+      color: #A5A1B2;
+    }
+
+    &-checkbox {
+      width: 15px;
+      height: 15px;
+    }
+
+    &-show {
+      background: none;
+      color: #A5A1B2;
+    }
+
+
+    &-btn {
+      border-radius: 15px;
+      border: none;
+      width: 200px;
+      height: 40px;
+      background-color: #EA003D;
+      color: #FFFFFF;
+      margin-top: 10px;
+    }
+
+    &-profil {
+      background: none;
+      color: #A5A1B2;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      padding: 10px;
+    }
+
+    &-voiti {
+      background: none;
+      color: #EA003D;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+}

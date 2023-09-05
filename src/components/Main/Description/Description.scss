@@ -1,0 +1,42 @@
+.description-block {
+  padding-top: 49px;
+  .description {
+    text-align: left !important;
+    //width: 829px;
+    color: white;
+    font-family: 'Inter';
+    padding-right: 300px;
+
+
+    .description-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+
+    .description-text {
+      padding-top: 14px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #A5A1B2;
+
+      .description-list {
+        padding-left: 25px;
+      }
+
+      button {
+        //display: block;
+        width: 100px;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.88);
+      }
+    }
+  }
+}
