@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "server": "json-server-auth --watch db.json --port 8080"
+    "server": "https://github.com/kutman-sagymbek/IVI/pull/new/server"
   },
   "dependencies": {
     "concurrently": "^8.0.1",

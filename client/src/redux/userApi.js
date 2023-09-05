@@ -5,7 +5,7 @@ export const userApi = createApi(
     {
         reducerPath: 'userApi',
         baseQuery: fetchBaseQuery({
-            baseUrl: 'http://localhost:8080'
+            baseUrl: 'https://github.com/kutman-sagymbek/IVI/pull/new/server'
         }),
         endpoints: build => ({
             registerUser: build.mutation({

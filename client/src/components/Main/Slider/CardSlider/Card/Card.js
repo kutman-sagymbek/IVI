@@ -8,22 +8,22 @@ import { useDispatch, useSelector } from "react-redux";
 import { loginAccount, updateFavorites } from "../../../../../redux/userSlice";
 import {Link} from "react-router-dom";
 
-function Card({ movie, to }) {
+function Card({ movie }) {
     const dispatch = useDispatch();
     const favorite = useSelector((state) => state.user.favorites);
     const user = useSelector((state) => state.user.user);
-    console.log(user)
 
-    // const isAddedToFavorites = user.favorites.includes(movie.id);
+    const isAddedToFavorites = favorite.includes(movie.id);
 
-    const handleAddToFavorites = (event) => {
+    const handleAddToFavorites = () => {
         dispatch(updateFavorites(movie.id));
     };
 
-    const handleRemoveFromFavorites = (event) => {
+    const handleRemoveFromFavorites = () => {
         if (user) {
-            const updatedFavorites = user.favorites.filter(id => id !== movie.id);
-            dispatch(loginAccount({ ...user, favorites: updatedFavorites }));
+            // const updatedFavorites = user.favorites.filter(id => id !== movie.id);
+            // dispatch(loginAccount({ ...user, favorites: updatedFavorites }));
+
             dispatch(updateFavorites(movie.id));
         }
     };
@@ -61,7 +61,7 @@ function Card({ movie, to }) {
                 </div>
 
                 <div className="info">
-                    <p className="rating">24</p>
+                    {/*<p className="rating">24</p>*/}
                     <p className="year">{movie.name}</p>
                     <p className="country"></p>
                     <p className="genre">{movie.type}</p>
