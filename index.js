@@ -1,5 +1,6 @@
 const express = require('express');
 const jsonServer = require('json-server');
+const cors = require('cors')
 const jsonServerAuth = require('json-server-auth');
 
 const app = express();
@@ -12,6 +13,9 @@ app.use(jsonServerAuth);
 
 // Define your routes and other middleware as needed.
 // For example:
+app.use(cors({
+    origin: '*'
+}));
 app.use('/api', router);
 
 // Start your Express server
