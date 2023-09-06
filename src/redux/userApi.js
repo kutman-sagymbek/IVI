@@ -5,7 +5,7 @@ export const userApi = createApi(
     {
         reducerPath: 'userApi',
         baseQuery: fetchBaseQuery({
-            baseUrl: 'http://localhost:8080'
+            baseUrl: 'https://ivi-39qh.onrender.com/users'
         }),
         endpoints: build => ({
             registerUser: build.mutation({

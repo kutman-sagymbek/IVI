@@ -21,8 +21,6 @@ function Card({ movie }) {
 
     const handleRemoveFromFavorites = () => {
         if (user) {
-            const updatedFavorites = user.favorites.filter(id => id !== movie.id);
-            dispatch(loginAccount({ ...user, favorites: updatedFavorites }));
             dispatch(updateFavorites(movie.id));
         }
     };
